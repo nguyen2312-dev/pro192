@@ -23,6 +23,8 @@ public class Part2 {
             System.out.println("the result of " + num1 + op + num2 + "=" + (num1 * num2));
         }else if(op.equals("/")) {
             System.out.printf("the result of %.2f / %.2f = %.2f", num1, num2, (float)(num1 + num2));
+        }else{
+            System.out.println("Invalid operator");
         }
     }
 }
