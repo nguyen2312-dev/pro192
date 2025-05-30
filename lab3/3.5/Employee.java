@@ -46,7 +46,6 @@ public class Employee {
     }
 
     public void setSalary(double Salary) {
-        this.Salary = Salary;
         if(Salary > 0.0){
             this.Salary = Salary;
         }else{
