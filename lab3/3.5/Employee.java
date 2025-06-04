@@ -52,4 +52,8 @@ public class Employee {
             this.Salary = 0.0;
         }
     }  
+
+    public void raiseSalary(){
+        this.Salary = this.Salary * 1.1;
+    }
 }
